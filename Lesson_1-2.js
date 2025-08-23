@@ -8,7 +8,7 @@ const lastName = 'mintowax';
 let fullName = firstName + ' ' + lastName;
 
 // 問題4: テンプレートリテラルを使って "My name is [fullName]." という文字列を作成し、`introduction` という名前の新しい変数に代入してください。 `[fullName]` の部分には、問題3で作成した `fullName` 変数の値を埋め込んでください。
-let introduction = `My name is ${fullName}`;
+let introduction = `My name is ${fullName}.`;
 
 // 問題5: `fullName` の文字数を `nameLength` という名前の新しい変数に代入してください。
 let nameLength = fullName.length;
